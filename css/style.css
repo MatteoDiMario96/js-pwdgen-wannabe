@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Non mi piace mettere le cose al body ma js mi ha messo le cose fuori dal main quindi ho dovuto fare così*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+
+    background-color: black;
+    color: white;
+}
+
+main {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
